@@ -3,7 +3,7 @@
 
 The HTTP Listener Connector provides the most practical way to listen for HTTP requests.
 
-The connector can be set up to accept any request, or to only accept requests that are addressed to a very specific URI. You can choose what methods the connector can accept (GET, POST, etc). The request body is passed on to the next element you place in your flow as the message payload of a Mule Message, meanwhile headers, query parameters, URI parameters and other elements of the HTTP Request are passed on as inbound properties.
+The connector can be set up to accept any request, or to only accept requests that are addressed to a very specific URL. You can choose what methods the connector can accept (GET, POST, etc). The request body is passed on to the next element you place in your flow as the message payload of a Mule Message, meanwhile headers, query parameters, URI parameters and other elements of the HTTP Request are passed on as inbound properties.
 
 This connector can also implement HTTPS protocol and encrypt your communications via TLS.
 
